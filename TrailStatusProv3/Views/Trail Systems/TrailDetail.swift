@@ -24,7 +24,6 @@ struct TrailDetail: View {
       VStack {
         MapView(coordinate: trailSystem.locationCoordinate)
           .frame(height: 380)
-        
         ImageShapeView(image: trailSystem.image)
           .offset(y: -130)
           .padding(.bottom, -130)
